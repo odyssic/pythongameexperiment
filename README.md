@@ -1,4 +1,4 @@
-# pythongameexperiment
+# Python Spcae Invaders Game Experiment
 
 A simple space-invaders type game built using python and pygame. 
 
