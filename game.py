@@ -4,7 +4,10 @@ import sys
 pygame.init()
 
 WIDTH = 800
-HEIGHT= 600
+HEIGHT = 600
+
+player_position = [400, 300]
+player_size=50
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
@@ -16,7 +19,7 @@ while not game_over:
         if event.type == pygame.QUIT:
             sys.exit()
 
-    pygame.draw.rect(screen, (255, 0, 0), (400, 300, 50, 50))
+    pygame.draw.rect(screen, (255, 0, 0), (player_position[0], player_position[1], player_size, player_size))
     
     pygame.display.update()
     
